@@ -1,4 +1,4 @@
-[app]
+[[app]
 
 # (str) Title of your application
 title = Cosmic Abyss
@@ -8,6 +8,9 @@ package.name = cosmicabyss
 
 # (str) Package domain (needed for android packaging)
 package.domain = org.abyss
+
+# (str) Application versioning (add this line)
+version = 0.1
 
 # (str) Source files where the app lives
 source.dir = .
