@@ -11,7 +11,6 @@ fullscreen = 1
 android.permissions = INTERNET
 android.api = 33
 android.min_api = 21
-android.sdk = 30
 android.ndk = 25b
 android.archs = arm64-v8a, armeabi-v7a
 icon.filename = %(source.dir)s/icon.jpg
