@@ -1,4 +1,4 @@
-[[app]
+[app]
 
 # (str) Title of your application
 title = Cosmic Abyss
@@ -9,7 +9,7 @@ package.name = cosmicabyss
 # (str) Package domain (needed for android packaging)
 package.domain = org.abyss
 
-# (str) Application versioning (add this line)
+# (str) Application versioning
 version = 0.1
 
 # (str) Source files where the app lives
@@ -39,15 +39,15 @@ android.min_api = 21
 # (str) Android NDK version to use
 android.ndk = 25b
 
-# (list) Android archs to build for (supports both modern and older devices)
+# (list) Android archs to build for
 android.archs = arm64-v8a, armeabi-v7a
 
-# (bool) Automatically accept Android SDK licenses (prevents build hangs)
+# (bool) Automatically accept Android SDK licenses
 android.accept_sdk_license = True
 
 [buildozer]
-# (int) Log level (0 = error only, 1 = info, 2 = debug (with command output))
+# (int) Log level (0 = error only, 1 = info, 2 = debug)
 log_level = 2
 
-# (int) Display warning if buildozer is run as root (0 = False, 1 = True)
+# (int) Display warning if buildozer is run as root
 warn_on_root = 1
