@@ -19,7 +19,7 @@ source.dir = .
 source.include_exts = py,png,jpg,atlas,ttf
 
 # (list) Application requirements
-requirements = python3,pygame,sdl2_ttf,sdl2_image,sdl2_mixer,sdl2
+requirements = python3==3.10.12,hostpython3==3.10.12,pyjnius==1.5.0,pygame,sdl2_ttf,sdl2_image,sdl2_mixer,sdl2
 
 # (str) Supported orientations
 orientation = portrait
