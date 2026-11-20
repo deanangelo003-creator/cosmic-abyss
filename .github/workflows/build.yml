@@ -1,7 +1,4 @@
-name: Build APK with Buildozer run: |
-      export PATH="$HOME/.local/bin:$PATH"
-      buildozer android clean
-      buildozer -v android debug
+name: Build Android APK
 
 on:
   push:
@@ -37,12 +34,10 @@ jobs:
           pip install --upgrade pip
           pip install --user Cython==0.29.33 buildozer
 
-      - name: Debug - List Files in Workspace
-        run: ls -la
-
       - name: Build APK with Buildozer
         run: |
           export PATH="$HOME/.local/bin:$PATH"
+          buildozer android clean
           buildozer -v android debug
 
       - name: Upload APK Artifact
