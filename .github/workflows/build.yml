@@ -1,4 +1,8 @@
-name: Build Android APK
+- name: Build APK with Buildozer
+    run: |
+      export PATH="$HOME/.local/bin:$PATH"
+      buildozer android clean
+      buildozer -v android debug
 
 on:
   push:
